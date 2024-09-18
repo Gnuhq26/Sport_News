@@ -18,9 +18,11 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
+  background-color: var(--color-light-2);
 }
 .logo {
   font-family: "Freehand", cursive;
+  color: #000000;
 }
 a {
   text-decoration: none;
@@ -33,4 +35,23 @@ ul {
   max-width: 114rem;
   margin: 0 auto;
   padding: 0rem 1.5rem;
+}
+/* Navbar */
+.nav{
+  width: 100%;
+  background-color: var(--color-light-1);
+  height: 8rem;
+}
+.nav_container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_list{
+  display: flex;
+}
+.nav_item{
+  margin: 0rem 0.5rem;
 }
