@@ -85,13 +85,24 @@ ul {
 .header_left{
   align-self: center;
 }
+.header_left > p{
+  margin-bottom: 2rem;
+}
+.header_main_title{
+  font-size: 7.7rem;
+  font-weight: 900;
+  line-height: 6rem;
+  margin-bottom: 2rem;
+}
 .header_right{
   justify-self: right;
+  margin-top: 15rem;
 }
 .header_news_card{
-  width: 20rem;
-  height: 22rem;
+  width: 25rem;
+  height: 20rem;
   position: relative;
+  margin-top: 1.5rem;
 }
 .header_news_img{
   position: absolute;
@@ -99,4 +110,17 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+.header_new_text{
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 99;
+}
+.header_new_text > p{
+  font-size: 1.3rem;
+}
+.header_news_title{
+  font-size: 1.35rem;
 }
