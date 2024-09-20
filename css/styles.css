@@ -150,7 +150,15 @@ ul {
   width: 100%;
   text-align: center;
   background-color: var(--color-dark-2);
+  padding: 3rem 0rem;
+  border-radius: 1rem;
 }
 .category_img{
   width: 100%;
+}
+.one{
+  margin-bottom: 1rem;
+}
+.two{
+  margin-top: 1rem;
 }
